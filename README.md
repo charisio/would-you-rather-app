@@ -1,10 +1,17 @@
 # Would You Rather Project
 
-This is the starter code for the final assessment project for Udacity's React & Redux course.
+The 'Would you rather' project is a game developed in React/Redux as part of Udacity's nanodegree.
 
-The `_DATA.js` file represents a fake database and methods that let you access the data. The only thing you need to edit in the ` _DATA.js` file is the value of `avatarURL`. Each user should have an avatar, so you’ll need to add the path to each user’s avatar.
+### Getting started
+To get this project running locally, type the following in a terminal:
+- `npm install` (installs project dependencies)
+- `npm start` (starts the dev server)
 
-Using the provided starter code, you'll build a React/Redux front end for the application. We recommend using the [Create React App](https://github.com/facebook/create-react-app) to bootstrap the project.
+###Features
+- Login/logout (no authentication)
+- Dashboard with answered/unanswered questions
+- Capability for adding a new question
+- Leaderboard
 
 ## Data
 

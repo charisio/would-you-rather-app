@@ -16,10 +16,11 @@ class LoginPage extends Component {
 
     handleSubmit = e => {
         e.preventDefault();
+        const {dispatch, history, location} = this.props;
         const {value} = this.state;
         if (value) {
-            this.props.dispatch(setAuthedUser(value));
-            this.props.history.push('/');
+            dispatch(setAuthedUser(value));
+            history.push((location.state && location.state.from) || '/');
         }
     }
 
