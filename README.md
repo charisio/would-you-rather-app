@@ -7,7 +7,7 @@ To get this project running locally, type the following in a terminal:
 - `npm install` (installs project dependencies)
 - `npm start` (starts the dev server)
 
-###Features
+### Features
 - Login/logout (no authentication)
 - Dashboard with answered/unanswered questions
 - Capability for adding a new question
